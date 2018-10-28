@@ -20,3 +20,5 @@ After new collections are done and before animation starts.
 
 Animations are done using tween to function from TweenLite library.
 PIXITextInput graphic container with input handling.
+
+LIVE DEMO - http://128.199.47.179/testtask/index.html
