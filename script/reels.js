@@ -289,12 +289,12 @@
         }
         
         //Get possible combinations and define line
-        for(let j = 0; j < screen[0].length; j++){
+        for(let j = 0; j < Math.max(screen[0].length, screen[1].length); j++){
             
             let code = [];
             let index = j;
             
-            if(screen[0].length == 1) {
+            if(screen[0].length == 1 && screen[1].length == 1 || screen[1].length == 1 && screen[2].length == 1) {
                     
                 index = 1; 
                     
@@ -319,6 +319,7 @@
                 if(screen[1].length == screen[2].length){
                     
                     if(screen[1].length == 1) index = 1;
+                    if(screen[1].length == 2 && j == 1) index = 2;
                     code.push([String([screen[1][j], screen[2][j]]), index]);
                     
                 }
