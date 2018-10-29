@@ -23,6 +23,9 @@ PIXITextInput graphic container with input handling.
 
 
 DEBUG SETTINGS
+
+You can access Debug settings screen by pressing "Debug" text at the top right corner of the machine.
+
 Elements:
 1. Field to enter Player Balance - Not recommended to go over 9999 because of Design.
 2. On/Off Button (green/red) to turon on and off Debug Mode
